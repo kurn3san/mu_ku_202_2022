@@ -14,27 +14,27 @@ public class Brand {
     //    // 1 attributes
     private String brand_id;
     private String brand_name;
-    private String adress;
+    private String address;
     private String notes="";
 
 
     //
     //
     // 2constructor
-    public Brand(String brand_id, String brand_name, String adress, String notes) {
+    public Brand(String brand_id, String brand_name, String address, String notes) {
         this.brand_id = brand_id;
         this.brand_name = brand_name;
-        this.adress = adress;
+        this.address = address;
         this.notes = notes;
     }
 
     public Brand() {
     }
 
-    public Brand(String brand_id, String brand_name, String adress) {
+    public Brand(String brand_id, String brand_name, String address) {
         this.brand_id = brand_id;
         this.brand_name = brand_name;
-        this.adress = adress;
+        this.address = address;
     }
 
     //
@@ -58,12 +58,12 @@ public class Brand {
         this.brand_name = brand_name;
     }
 
-    public String getAdress() {
-        return adress;
+    public String getAddress() {
+        return address;
     }
 
-    public void setAdress(String adress) {
-        this.adress = adress;
+    public void setAddress(String address) {
+        this.address = address;
     }
 
     public String getNotes() {
