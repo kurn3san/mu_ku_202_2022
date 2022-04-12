@@ -3,6 +3,18 @@ package com.example.mu_ku_202_2022.model;
 import java.util.Objects;
 
 public class User {
+    // 1 attributes
+    // 2 constructor
+    // 3 getters and setters
+    // 4 equals
+
+    /////////////////
+    //
+    //
+    //
+    //
+    // 1 attributes
+
     private String id_no;
     private String name;
     private String lasname;
@@ -12,12 +24,11 @@ public class User {
     private String email;
     private String notes;
     private boolean works_or_not=false;
+    ///////////////////
 
 
     //
-    //
-    //
-    //constructors
+    // 2 constructors
     public User(String id_no, String name, String lasname, String adress, String birth, String tel_no, String email, String notes, boolean works_or_not) {
         this.id_no = id_no;
         this.name = name;
@@ -36,11 +47,8 @@ public class User {
         this.id_no = id_no;
     }
 
-    //
-    //
-    //
-    //
-    //getters and setters
+    //////////////
+    // 3 getters and setters
     //
 
     public String getId_no() {
@@ -108,9 +116,9 @@ public class User {
         this.works_or_not = works_or_not;
     }
 
+    //////////
     //
-    //
-    //equals()
+    //  4 equals()
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
